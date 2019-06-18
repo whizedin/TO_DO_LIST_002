@@ -1,0 +1,126 @@
+
+.ss{
+    
+    display: flex;
+    overflow: auto;
+    padding:1px;
+    margin:1px;
+    width: 860px;
+    height:175px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 10px;
+    display: flex;
+    flex-basis: 800px;
+    flex-direction: column;
+    overflow: auto;
+    list-style: none;
+}
+.task{
+    list-style: none;
+    border:hidden;
+    padding:1px;
+    margin:1px;
+    text-align: center;
+
+}
+
+.ss1{
+    display: flex;
+    overflow: auto;
+    padding:1px;
+    margin:1px;
+    width: 860px;
+    height:175px;
+    border:solid;
+    border-color:black;
+    border-radius: 10px;
+    
+    flex-basis: 800px;
+    flex-direction: column;
+    overflow: auto;
+    list-style: none;
+}
+/*li {
+    direction: flow;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:grey;
+    font-size: 15px;
+    margin: 5px 0px 0px 10px;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+    height: 30px;
+  } */
+.solid{
+    padding:1px;
+    margin:1px;
+    margin-top: -150px;
+    width: 860px;
+    
+    border:solid;
+    border-color:black;
+    border-radius: 10px;
+    
+}
+.font{
+    text-align: center;
+    font-family: Lato, sans-serif;
+    margin:1px;
+    padding: 1px;
+}
+.dis{
+    text-align:center;
+    font-family: Lato, sans-serif;
+    margin:10px;
+    padding: 10px;
+    display:flex;
+
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    list-style: none;
+  }
+
+  ul li:hover {
+    background: #ddd;
+  }
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
