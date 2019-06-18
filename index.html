@@ -1,30 +1,37 @@
 <!DOCTYPE html>
-
 <head>
     <title>TODO list</title>
-    <meta charset="utf-8" />
-
-    <link href="style/style.css" rel="stylesheet">
-
+    <meta charset="utf-8"/>
+    <link href="style/style_1.css" rel="stylesheet">
 </head>
-
 <body style="margin: 100px ; padding:100px">
     <div class="ma">
-        <div class="solid">
-            <h3 class="font">ADD</h3>
-
-            <input style="width: 700px; height: 25px;" type="text" id="myInput" placeholder="Title...">
-            <input style="width: 700px; height: 40px;" type="text" id="myInput1" placeholder="Descripton...">
-            <input style="width: 50px; flex-direction: row;" type="submit" id="sub" value="Add" onclick="showInput();">
+    
+        
+    <div class="solid">
+        <h3 class="font">ADD</h3>
+        <input style="width: 700px; height: 25px;" type="text" id="myInput" placeholder="Title...">
+        <input style="width: 700px; height: 40px;" type="text" id="myInput1" placeholder="Descripton..." >
+        <input style="width: 50px; flex-direction: row;" id="1" type="submit" value="ADD" onclick="showInput();">
+    </div> 
+    <div class="ss">
+        <h3 class="font">Task</h3>
+        <div class="task">
+            <ul  id="display">
+                
+            </ul>
         </div>
-        <div class="ss">
-            <h3 class="font">Task</h3>
-            <p id="display"></p>
+         
         </div>
-        <div class="ss1">
+    </div>
+    
+    <div class="ss1">
             <h3 class="font">Descripton</h3>
-            <p id="display1"></p>
+            <div>
+             <ul class="dis" id="display1"></ul>
+                     
         </div>
+    </div>
+    <script src="js/main_1.js"></script>
 </body>
-<script src="js/main.js"></script>
-</html>
+</html> 
